@@ -382,6 +382,7 @@ button:hover {
 .section_1_input,
 .purple_input {
     position: relative;
+    transition: 200ms;
 }
 
 .section_1_input::after,
@@ -393,6 +394,7 @@ button:hover {
     font-family: "Open Sans", sans-serif;
     font-size: 0.75rem;
     transform: scale(0);
+    transition: 200ms;
 }
 
 .section_1_input::after {
